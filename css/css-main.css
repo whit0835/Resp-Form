@@ -37,6 +37,11 @@ h2 {
     color: #2DC9FF;
 }
 
+#bgpic {
+  background: url('/img/ocean-5.jpg');
+  padding-bottom: 35rem;
+}
+
 label {
     font-family: 'Hind Siliguri', sans-serif;
 }
