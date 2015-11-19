@@ -1,10 +1,43 @@
-<!doctype html>
-<html>
-    <head>
-        <title>My first sample page</title>
-    </head>
-    <body>
-        <!-- comment -->
-        <h1 id="name" title="User Name">Scott White Rules!!!! Again Booger</h1>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <link href='https://fonts.googleapis.com/css?family=Hind+Siliguri:400,700|Andada:400,700' rel='stylesheet' type='text/css'>
+    <title>Responsive Form</title>
+    <link rel="stylesheet" href="css/css-main.css" /></head>
+<body>
+    <header class="masthead">
+        <h1>This is a FORM</h1>
+        <h2>Fill it out</h2>
+    </header>
+    <form action="index.html">
+        <fieldset>
+            <legend></legend>
+            <div class="inputs">
+                <div class="box">
+                    <label for="fname">Username:</label>
+                    <input type="text" id="fname" placeholder="Username" />
+                </div>
+                <div class="box">
+                    <label for="url">Website:</label>
+                    <input type="url" id="url" placeholder="URL" />
+                </div>
+                <div class="box">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Email" />
+                </div>
+                <div class="box">
+                    <label for="pass">Password:</label>
+                    <input type="password" id="pass" placeholder="Password" />
+                </div>
+            </div>
+            <div class="box">
+                <input type="submit" value="Submit" id="submit" />
+            </div>
+        </fieldset>
+    </form>
+</body>
+
 </html>

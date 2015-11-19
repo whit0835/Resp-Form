@@ -1,0 +1,133 @@
+/* colors */
+
+/* color #16657F   dark blue  */
+/* color #79DDFF   light blue */
+/* color #2DC9FF   turquoise  */
+/* color #53747F   dark grey  */
+/* color #24A1CC   blue       */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*--Default Mobile Display--*/
+
+.masthead {
+    background-color: #16657F;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+h1,
+h2 {
+    font-size: 2.0rem;
+    text-align: left;
+    font-family: 'Andada', serif;
+    padding-left: 1rem;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: #2DC9FF;
+}
+
+label {
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+form {
+    padding: 1rem;
+    width: 80%;
+    align-content: center;
+    margin-left: 1.5rem;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+legend {
+    padding: 10px;
+}
+
+#submit {
+    width: 100%;
+    background-color: #24A1CC;
+}
+
+fieldset {
+    border: none;
+}
+
+@media all and (max-width: 400px) {
+    label {
+        display: none;
+    }
+}
+
+
+/*--Tablet Display--*/
+
+@media screen and (min-width: 400px) and (max-width: 1024px) {
+    .inputs {
+        line-height: 1.8;
+        overflow: hidden;
+        -webkit-column-count: 2;
+        -webkit-column-gap: 75px;
+        -moz-column-count: 2;
+        -moz-column-gap: 10px;
+        column-count: 2;
+        column-gap: 10px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    input {
+        margin: 0 0 25px 0;
+    }
+    label {
+        font-size: 12px;
+    }
+    #submit {
+        width: 25%;
+    }
+}
+
+
+/*--Desktop Display--*/
+
+@media all and (min-width: 1024px) {
+    .inputs {
+        line-height: 1.8;
+        overflow: hidden;
+        -webkit-column-count: 2;
+        -webkit-column-gap: 75px;
+        -moz-column-count: 2;
+        -moz-column-gap: 10px;
+        column-count: 2;
+        column-gap: 10px;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    label {
+        display: inline-block;
+        width: 110px;
+    }
+    input {
+        margin: 0 0 25px 0;
+        width: 75%
+    }
+    #submit {
+        width: 10%;
+    }
+}
